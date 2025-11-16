@@ -124,6 +124,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Lab4OPI(8 MiniGroup).cpp" />
+    <ClCompile Include="Nazaryk.cpp" />
+    <ClCompile Include="Ostrover.cpp" />
+    <ClCompile Include="Skoriy.cpp" />
+    <ClCompile Include="Troxim.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Nazaryk.h" />
+    <ClInclude Include="Ostrover.h" />
+    <ClInclude Include="Skoriy.h" />
+    <ClInclude Include="Troxim.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
