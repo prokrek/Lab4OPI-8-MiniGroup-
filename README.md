@@ -1,0 +1,1 @@
+# Lab4OPI(8 MiniGroup)
