@@ -18,7 +18,7 @@ static void Menu()
     cout << "1. Регістрація" << endl;
     cout << "2. Перегляд розкладу" << endl;
     cout << "3. Звернення до адміністрації" << endl;
-    cout << "4. Вийти з аккаунту" << endl;
+    cout << "4. Вийти" << endl;
     if (This_is_registr())
         cout << "                                                <(Ви у системі)>"<<endl;
 
@@ -31,11 +31,13 @@ static void Menu()
         Ostrover();
         break;
     case 2:
+        Skoriy();
         break;
     case 3:
         Nazaryk();
         break;
     case 4:
+        Troxim();
         break;
 
     default:

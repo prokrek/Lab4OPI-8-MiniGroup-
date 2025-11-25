@@ -62,6 +62,11 @@ public:
     {
         return Registr;
     }
+    void setRegistr(const bool& newRegistr)
+    {
+        Registr = newRegistr;
+        
+    }
 };
 User Object;
 void Ostrover()

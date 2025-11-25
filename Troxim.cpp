@@ -1,6 +1,7 @@
 ﻿#include "Troxim.h"
+#include <cstdlib>
 
-int Troxim()
+void Troxim()
 {
-    return 0;
+	exit(0);
 }
