@@ -1,2 +1,2 @@
 ﻿#pragma once
-int Nazaryk();
+void Nazaryk();

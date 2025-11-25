@@ -6,11 +6,13 @@
 #include <windows.h>
 #include <limits> 
 
+int registr;
 
 using namespace std;
 static void Menu()
 {
-    system("cls"); // очистка екрану
+    cout << "\n\n\n" << endl;
+    //system("cls"); // очистка екрану
     //Main menu
     cout << "Меню:" <<endl;
     cout << "1. Регістрація" << endl;
@@ -45,7 +47,11 @@ int main()
 {
     SetConsoleOutputCP(1251); //Українська мова у терміналі
     SetConsoleCP(1251);
-    Menu();
-    Menu();
+    do
+    {
+        Menu();
+
+    } while (true);
+    
     
 }
