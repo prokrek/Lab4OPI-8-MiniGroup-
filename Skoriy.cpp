@@ -7,7 +7,7 @@ using namespace std;
 
 void Skoriy()
 {
-    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleOutputCP(CP_UTF8); //Кодування для виводу укр мови з файлу
     SetConsoleCP(CP_UTF8);
     ifstream file("C:/Users/termo/Desktop/rozklad.txt"); // відкриваємо файл для читання
     if (!file) 
@@ -16,12 +16,12 @@ void Skoriy()
     }
 
     string line;
-    while (getline(file, line)) 
+    while (getline(file, line)) //вивід построчно
     {   
         cout << line << endl;        
     }
 
-    file.close(); 
-    SetConsoleOutputCP(1251); //Українська мова у терміналі
+    file.close(); //закриття файлу
+    SetConsoleOutputCP(1251); //Українська мова у терміналі як і було до
     SetConsoleCP(1251);
 }
