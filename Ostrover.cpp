@@ -4,11 +4,9 @@
 #include <algorithm>
 #include <cctype>
 #include <Windows.h>
+#include <limits>
+
 using namespace std;
-bool hasLetter(const string& s) 
-{
-    return any_of(s.begin(), s.end(), ::isalpha);
-}
 
 class User
 {
@@ -68,6 +66,7 @@ public:
 User Object;
 void Ostrover()
 {
+    
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     //Авторизація
