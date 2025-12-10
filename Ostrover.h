@@ -1,5 +1,18 @@
-﻿#pragma once
+﻿
+#pragma once
+#include <string>
+using namespace std;
 void Ostrover();
 int This_is_registr();
-void get_registr_user();
-class User;
+struct User
+{
+    string Name;
+    string Age;
+    string Mail;
+    string Number;
+    string Password;
+    bool Registr = false;
+};
+
+// объявляем объект глобально
+extern User Object;

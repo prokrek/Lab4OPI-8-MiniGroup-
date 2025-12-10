@@ -12,10 +12,9 @@ using namespace std;
 static void Menu()
 {
     cout << "\n\n\n" << endl;
-    //system("cls"); // очистка екрану
     //Main menu
     cout << "Меню:" <<endl;
-    cout << "1. Регістрація" << endl;
+    cout << "1. Авторизація" << endl;
     cout << "2. Перегляд розкладу" << endl;
     cout << "3. Звернення до адміністрації" << endl;
     cout << "4. Вийти" << endl;

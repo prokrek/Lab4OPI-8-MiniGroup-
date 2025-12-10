@@ -17,16 +17,18 @@ void Nazaryk() //Початок функції
 		string problem;	//Строковий тип тікету
 		getline(cin, problem);//Запис у змінну 
 		cout << problem << endl; 
-		cout << "Напишіть ваше ім'я та дату через пробіл" << endl;
-		string name_and_data; //Строковий тип дати
-		getline(cin, name_and_data); //Запис у змінну 
-
+		
+		
 
 		ofstream file("C:/Users/termo/Desktop/ticket.txt", ios::out); // шлях до файлу
 		if (file.is_open())  //якщо файл відкритий
 		{         
 			file << problem<<"\n"; //Запис у файл тікету та перенос на іншу строку
-			file << name_and_data << "\n";//Запис у файл дати та перенос на іншу строку
+			file << "\n"; 
+			file << "Дані користувача: " << "\n";
+			file << Object.Name << "\n";//Запис у файл інформації про користувача
+			file << Object.Mail << "\n";//Запис у файл інформації про користувача
+			file <<"03.12.2025" << "\n";
 			file.close();            //закриття файлу
 		}
 		else 
