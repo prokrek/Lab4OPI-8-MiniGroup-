@@ -18,7 +18,7 @@ public:
 User Object;
 User Yaroslav;
 User Artem;
-User Tramp;
+User Tamp;
 void Ostrover()
 {//
     //Yaroslav
@@ -40,11 +40,11 @@ void Ostrover()
     Artem.Number = "0968479488";
     Artem.Password = "12345";
     //Tramp
-    Tramp.Name = "Tramp";
-    Tramp.Age = "18";
-    Tramp.Mail = "Tramp@gmail.com";
-    Tramp.Number = "0967893678";
-    Tramp.Password = "12345";
+    Tamp.Name = "Tamp";
+    Tamp.Age = "18";
+    Tamp.Mail = "Tamp@gmail.com";
+    Tamp.Number = "0967893678";
+    Tamp.Password = "12345";
 
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
@@ -64,7 +64,7 @@ void Ostrover()
 
     cout << "Уведіть ваш пароль: ";
     getline(cin, Object.Password);
-    if ((Object.Name == Yaroslav.Name && Object.Password == Yaroslav.Password) || (Object.Name == Artem.Name && Object.Password == Artem.Password) || (Object.Name == Tramp.Name && Object.Password == Tramp.Password))
+    if ((Object.Name == Yaroslav.Name && Object.Password == Yaroslav.Password) || (Object.Name == Artem.Name && Object.Password == Artem.Password) || (Object.Name == Tamp.Name && Object.Password == Tamp.Password))
     {
         
         Object.Registr = true;   

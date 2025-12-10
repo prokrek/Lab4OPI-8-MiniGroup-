@@ -13,6 +13,4 @@ struct User
     string Password;
     bool Registr = false;
 };
-
-// объявляем объект глобально
 extern User Object;
